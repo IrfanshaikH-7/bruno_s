@@ -2,12 +2,12 @@ import React from "react";
 
 export default function WhyLearn() {
   return (
-    <section className="w-full py-16 px-6 md:px-16">
-      <h2 className="font-afacad text-4xl font-extrabold text-white text-center mb-12">
+    <section className="w-full py-16 px-4 max-w-7xl mx-auto">
+      <h2 className="font-afacad text-6xl font-extrabold text-white text-center mb-12">
         Why Learn Spanish Online?
       </h2>
 
-      <ul className="list-disc list-outside ml-8 space-y-6 text-lg leading-relaxed text-[#FBE5D8] font-afacad">
+      <ul className="list-disc list-outside ml-8 space-y-6 text-xl leading-relaxed text-[#FBE5D8] font-afacad">
         <li className="!list-item">
           If you're debating whether learning Spanish is worth it, consider
           this:{" "}

@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const BlogsPage = () => {
   return (
     <>
-      <section id="hero" className="bg-black py-8">
-        <div className="main-container">
+      <section id="hero" className="bg-black pb-8 pt-32 md:pt-48">
+        <div className="main-container py-6">
           <h1 className="text-6xl text-center font-bold mb-3">Blogs</h1>
-          <p className="text-[#FBE5D8] text-4xl text-center font-light">
+          <p className="text-[#FBE5D8] text-3xl max-w-5xl mx-auto text-center font-light">
             Read more about latest news from Expanish destinations, or get tips
             on how to prepare to study Spanish at our language schools.
           </p>
@@ -17,7 +17,7 @@ const BlogsPage = () => {
 
       <section id="cards" className="bg-black pb-8">
         <div className="main-container">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             {blogs.map((course, index) => {
               const isLastOdd =
                 blogs.length % 2 !== 0 && index === blogs.length - 1;

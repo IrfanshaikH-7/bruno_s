@@ -5,8 +5,8 @@ import image3 from "../assets/Blog3.png";
 
 export default function Blog() {
   return (
-    <section className="main-container my-8">
-      <h2 className="text-5xl font-afacad font-bold text-white text-center mb-12">
+    <section className="main-container my-12">
+      <h2 className="text-7xl font-afacad font-bold text-white text-center mb-12">
         Blogs
       </h2>
       <p className="text-[#FBE5D8] font-afacad text-center max-w-4xl mx-auto mb-12">
@@ -24,13 +24,13 @@ export default function Blog() {
             />
           </div>
           <div className="my-4">
-            <div className="text-white font-afacad text-sm mb-2">
+            <div className="text-white font-afacad mb-2">
               January 17, 2025
             </div>
-            <h3 className="text-lg font-bold text-[#DFB6B2] font-afacad mb-2">
+            <h3 className="text-xl md:text-2xl font-bold text-[#DFB6B2] font-afacad mb-2">
               Language Summer Camp Online: Benefits for Kids and Teens
             </h3>
-            <p className="text-[#FBE5D8]/80 font-afacad text-sm mb-4">
+            <p className="text-[#FBE5D8]/80 font-afacad  mb-4">
               Summer language programs for kids can be one of the best ways to
               keep them engaged and learning while school is out. Like all
               summer...
@@ -48,13 +48,13 @@ export default function Blog() {
             />
           </div>
           <div className="my-4">
-            <div className="text-white font-afacad text-sm mb-2">
+            <div className="text-white font-afacad mb-2">
               May 08, 2025
             </div>
-            <h3 className="text-lg font-bold text-[#DFB6B2] font-afacad mb-2">
+            <h3 className="text-xl md:text-2xlfont-bold text-[#DFB6B2] font-afacad mb-2">
               Gender in Spanish: An easy guide to masculine & feminine
             </h3>
-            <p className="text-[#FBE5D8]/80 font-afacad text-sm mb-4">
+            <p className="text-[#FBE5D8]/80 font-afacad  mb-4">
               If you're still mastering gender in Spanish in regards to nouns
               and adjectives, don't despair, not any Latin language. It's
               fundamental. In this article, we're exploring gender in Spanish in
@@ -73,13 +73,13 @@ export default function Blog() {
             />
           </div>
           <div className="my-4">
-            <div className="text-white font-afacad text-sm mb-2">
+            <div className="text-white font-afacad mb-2">
               January 23, 2025
             </div>
-            <h3 className="text-lg font-bold text-[#DFB6B2] font-afacad mb-2">
+            <h3 className="text-xl md:text-2xl font-bold text-[#DFB6B2] font-afacad mb-2">
               A dedicated guide to help you learn the Spanish alphabet quickly
             </h3>
-            <p className="text-[#FBE5D8]/80 font-afacad text-sm mb-4">
+            <p className="text-[#FBE5D8]/80 font-afacad  mb-4">
               Learning Spanish is now easier than ever thanks to the internet.
               With tons of great Spanish content available online, gone are the
               days when you had to jump on a plane.

@@ -36,25 +36,25 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#1A0B1E] to-[#2D1B35] text-white">
+    <div className="min-h-screen bg-gradient-to-b  pt-24 md:pt-40 from-[#1A0B1E] to-[#2D1B35] text-white">
       {/* Header would be included here */}
 
       {/* Main Content */}
       <div className="main-container py-8">
-        <div className="max-w-6xl mx-auto">
-          <h1 className="text-5xl font-afacad font-bold mb-6 text-[#FFFFFF] text-center">
+        <div className="max-w-6xl mx-auto py-6">
+          <h1 className="text-6xl font-afacad font-bold mb-6 text-[#FFFFFF] text-center">
             Contact Us
           </h1>
 
-          <p className="text-lg font-afacad text-center text-[#FBE5D8] mb-12 max-w-4xl mx-auto">
+          <p className="text-xl font-afacad text-center text-[#FBE5D8] mb-12 max-w-4xl mx-auto">
             Please tell us a little more about yourself and your organization so
             that we can recommend the language-learning solution best suited to
             your needs.
           </p>
 
-          <div className="flex font-afacad flex-col bg-[#000000] lg:flex-row gap-8">
+          <div className="flex font-afacad flex-col rounded-3xl overflow-hidden bg-[#000000] lg:flex-row gap-8">
             {/* Image on left - only shown on larger screens */}
-            <div className="hidden lg:block lg:w-1/2 h-[700px] relative">
+            <div className="hidden lg:block lg:w-1/2 h-[640px] relative">
               <img
                 src={image}
                 alt="Contact illustration"

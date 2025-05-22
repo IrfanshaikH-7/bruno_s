@@ -7,13 +7,33 @@ body {
   color: white;
   font-family: "Afacad", sans-serif;
 }
+button{
+  cursor: pointer;
+}
 
 .main-container {
-  width: 90%;
+  width: 92%;
   margin-left: auto;
   margin-right: auto;
 }
 
 ul, li {
   display: inline-block;
+}
+
+.light-txt-color {
+  color: #8F8F8F;
+}
+
+.primary-txt-color{
+  color: #FBE5D8;
+}
+.cs_shadow{
+  box-shadow: -3px 10px 44px -1px rgba(83,41,89,0.5);
+-webkit-box-shadow: -3px 10px 44px -1px rgba(83,41,89,0.55);
+-moz-box-shadow: -3px 10px 44px -1px rgba(83,41,89,0.5);
+}
+
+.hover_class:hover{
+  @apply bg-gradient-to-r from-[#532959] via-[#824D69] to-[#532959] text-white rounded-lg hover:from-[#5d2f63] hover:via-[#8d5674] hover:to-[#5d2f63];
 }

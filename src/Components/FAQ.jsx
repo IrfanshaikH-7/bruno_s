@@ -1,12 +1,12 @@
 import React from "react";
 export default function FAQ() {
   return (
-    <section className="bg-[#000000] py-8">
+    <section className=" py-16">
       <div className="main-container">
-        <h2 className="text-5xl font-bold text-white font-afacad text-center mb-12">
+        <h2 className="text-6xl font-bold text-white font-afacad text-center mb-12">
           Frequently Asked Questions
         </h2>
-        <div className="max-w-3xl mx-auto space-y-4">
+        <div className="max-w-4xl mx-auto space-y-4">
           {[
             {
               question: "Why should I learn Spanish?",
@@ -33,22 +33,21 @@ export default function FAQ() {
               answer:
                 "No, we offer courses for complete beginners through advanced learners.",
             },
-            // ... other FAQ items
           ].map((item, index) => (
-            <details key={index} className="bg-[#212121] rounded-lg group">
+            <details key={index} className="bg-[#391e3c61] rounded-lg group">
               <summary className="px-6 py-4 text-white/60 list-none cursor-pointer flex justify-between items-center">
-                <span className="font-afacad">{item.question}</span>
-                <div className="relative w-4 h-4 ml-2">
+                <span className="font-afacad text-base md:text-lg primary-txt-color">{item.question}</span>
+                <div className="relative w-3 h-3 ml-2">
                   {/* Plus/Minus icon */}
-                  <div className="absolute inset-0">
+                  <div className="absolute inset-0 primary-txt-color">
                     {/* Horizontal line */}
-                    <div className="absolute top-1/2 left-0 w-full h-px bg-white transform -translate-y-1/2"></div>
+                    <div className="absolute top-1/2 left-0 w-3 h-px bg-white transform -translate-y-1/2"></div>
                     {/* Vertical line - disappears when open */}
-                    <div className="absolute left-1/2 top-0 h-full w-px bg-white transform -translate-x-1/2 transition-all duration-200 group-open:opacity-0"></div>
+                    <div className="absolute left-1/2 top-0 h-3 w-px bg-white transform -translate-x-1/2 transition-all duration-200 group-open:opacity-0"></div>
                   </div>
                 </div>
               </summary>
-              <div className="px-6 pb-4 pt-0 text-white/80 font-afacad">
+              <div className="px-6 pb-4 pt-0 primary-txt-color text-base md:text-lg font-afacad">
                 {item.answer}
               </div>
             </details>

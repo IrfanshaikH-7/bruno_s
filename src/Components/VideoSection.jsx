@@ -6,23 +6,36 @@ export default function VideoSection() {
   const [playVideo, setPlayVideo] = useState(false);
 
   return (
-    <section className="main-container my-8">
-      <h2 className="text-5xl font-afacad font-bold text-white text-center mb-12">
+    <section className="main-container my-16">
+      <h2 className="text-6xl font-afacad font-bold text-white text-center mb-12">
         See what a Bruno S class looks like
       </h2>
 
-      <div className="bg-black/40 rounded-lg overflow-hidden">
-        <div className="relative">
+      <div className="rounded-lg overflow-hidden">
+        <div className="relative  md:px-7">
+        <div
+        className="absolute hidden md:block w-[60px] h-3/4 top-1/2 -translate-y-1/2 right-0 rounded-3xl bg-[#dfb6b2]/[19%]"
+      />
+      <div
+        className="absolute hidden md:block w-[60px] h-3/4 top-1/2 -translate-y-1/2 left-0 rounded-3xl bg-[#dfb6b2]/[19%]"
+      />
           {playVideo ? (
-            <iframe
-              className="w-full h-[70vh]"
+            <div className="rounded-3xl overflow-hidden">
+              <iframe
+              className="w-full h-[70vh]  rounded-3xl "
               src="https://www.youtube.com/embed/k7HkJKDYoBc?autoplay=1"
               title="Bruno S Class Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
+
+            </div>
+            
           ) : (
             <>
+
+<div className="rounded-3xl overflow-hidden">
+
               <img
                 src={image}
                 alt="Class preview"
@@ -35,6 +48,7 @@ export default function VideoSection() {
               >
                 <Youtube className="w-8 h-8 text-white" />
               </button>
+              </div>
             </>
           )}
         </div>

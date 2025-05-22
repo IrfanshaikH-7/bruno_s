@@ -27,7 +27,7 @@ const StudentsReviews = () => {
             top of correcting your sentences and tying your weak points into
             homework. He makes learning Spanish a fun...
           </p>
-          <button className="text-xl mb-3 bg-gradient-to-r from-[#532959] via-[#824D69] to-[#DFB6B2] bg-clip-text text-transparent">
+          <button className="text-xl font-semibold  mb-3 bg-gradient-to-r from-[#532959] via-[#824D69] to-[#DFB6B2] bg-clip-text text-transparent">
             See More
           </button>
         </div>
@@ -152,9 +152,9 @@ const StudentsReviews = () => {
           </button>
         </div>
       </div>
-      <div className="text-center">
-        <button className="text-2xl text-center px-5 py-2 my-8 rounded-lg bg-gradient-to-r from-[#532959] via-[#824D69] to-[#DFB6B2]">
-          View all
+      <div className="text-center my-8">
+      <button className="bg-gradient-to-r  from-[#532959] via-[#824D69] to-[#532959] text-white font-afacad px-6 py-2 rounded-md hover:from-[#5d2f63] hover:via-[#8d5674] hover:to-[#e5c1bd] transition-all duration-300 shadow-lg hover:shadow-purple-900/30">
+          View All
         </button>
       </div>
     </div>

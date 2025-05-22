@@ -12,7 +12,7 @@ import BlogDetailPage from "./Pages/BlogDetailPage";
 
 const App = () => {
   return (
-    <main>
+    <main >
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -16,10 +16,10 @@ import StudentsReviews from "../Components/StudentsReviews";
 const Home = () => {
   return (
     <>
-      <section id="hero" className="my-8">
+      <section id="hero" className="h-screen flex items-center w-full">
         <Hero />
       </section>
-      <section id="about" className="my-8">
+      <section id="about" className="mb-8">
         <About />
       </section>
       <WhyLearn />
@@ -30,8 +30,8 @@ const Home = () => {
       <Blog />
       <section id="testimonials" className="bg-black py-8">
         <StudentsReviews />
-      </section>
       <Stats />
+      </section>
       <FAQ />
       <Banner />
     </>

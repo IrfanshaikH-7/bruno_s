@@ -7,23 +7,23 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const linkClass = ({ isActive }) =>
-    `text-xl mb-4 lg:mb-0 lg:mr-4 transition-all duration-300 ${
+    `text-xl  lg:mr-10 transition-all duration-300 ${
       isActive ? "text-white drop-shadow-[0_0_10px_white]" : "text-gray-300"
     }`;
 
   return (
-    <header className="bg-[#19001C] py-6 shadow-2xl relative z-50">
-      <div className="main-container">
+    <header className="bg-[#19001C] fixed w-full top-0 py-12 shadow-2xl h-24 md:h-40 flex items-center z-[9999]">
+      <div className="main-container  flex items-center justify-between">
         {/* Common Logo */}
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between  w-full items-center">
           <div>
-            <h1 className="text-5xl font-bold text-white flex items-center gap-1">
+            <h1 className="text-4xl font-bold text-white flex items-center gap-1">
               Bruno
               <div className="inline-block text-[#180018] font-bold px-4 rounded-3xl bg-gradient-to-r from-[#532959] via-[#824D69] to-[#DFB6B2]">
                 S
               </div>
             </h1>
-            <h2 className="text-[15px] text-white">
+            <h2 className="text-xs text-white">
               Language Learning Platform
             </h2>
           </div>
@@ -48,7 +48,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex justify-between items-center mt-6">
+          <div className="hidden  lg:flex justify-between items-center ">
             <nav className="flex items-center">
               <ul className="flex items-center">
                 <li>
@@ -77,9 +77,9 @@ const Header = () => {
                   </NavLink>
                 </li>
               </ul>
-              <button className="ml-6 px-5 py-2 rounded-lg bg-gradient-to-r from-[#532959] via-[#824D69] to-[#532959] text-white">
+              <a href="https://koalendar.com/e/30-follow-up-session-with-bruno" target="_blank" className="ml-6 px-5 py-2 rounded-lg bg-gradient-to-r from-[#532959] via-[#824D69] to-[#532959] text-white">
                 Schedule a call
-              </button>
+              </a>
             </nav>
           </div>
         </div>
