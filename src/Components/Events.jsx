@@ -4,7 +4,7 @@ export default function Events() {
   return (
     <section className="bg-black py-8 px-4 ">
       <div className="max-w-5xl mx-auto ">
-        <h2 className="text-6xl font-bold text-white font-afacad text-center mb-4">
+        <h2 className="text-4xl md:text-6xl font-bold text-white font-afacad text-center mb-4">
           Upcoming Events & Webinars
         </h2>
         <p className="text-[#DFB6B2] font-afacad text-xl text-center max-w-4xl mx-auto mb-12">

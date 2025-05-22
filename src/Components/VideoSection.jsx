@@ -7,7 +7,7 @@ export default function VideoSection() {
 
   return (
     <section className="main-container my-16">
-      <h2 className="text-6xl font-afacad font-bold text-white text-center mb-12">
+      <h2 className="text-4xl md:text-6xl font-afacad font-bold text-white text-center mb-12">
         See what a Bruno S class looks like
       </h2>
 

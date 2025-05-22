@@ -29,7 +29,7 @@ export default function Resources() {
   return (
     <section className="relative bg-black py-16 px-4">
       <div className="container mx-auto">
-        <h2 className="text-6xl sm:text-5xl font-afacad font-bold text-white text-center mb-4">
+        <h2 className="text-4xl sm:text-5xl font-afacad font-bold text-white text-center mb-4">
           Keep Learning At Any Time
         </h2>
         <p className="text-[#DFB6B2] font-afacad text-center max-w-5xl mx-auto mb-12 text-base sm:text-lg">

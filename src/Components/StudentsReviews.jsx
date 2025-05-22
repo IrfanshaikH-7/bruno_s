@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 const StudentsReviews = () => {
   return (
     <div className="main-container">
-      <h3 className="text-center text-5xl md:text-6xl font-bold my-8">
+      <h3 className="text-center text-4xl  md:text-6xl font-bold my-8">
         What my students say
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

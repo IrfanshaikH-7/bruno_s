@@ -4,7 +4,7 @@ import React from "react";
 export default function Stats() {
   return (
     <section className="main-container m-20">
-      <h2 className=" text-7xl font-afacad font-bold text-white text-center mb-12">
+      <h2 className="text-4xl md:text-6xl font-afacad font-bold text-white text-center mb-12">
         Real-world results.
       </h2>
       <div className="grid md:grid-cols-3 gap-6 md:gap-12 xl:gap-24 mt-20 mb-12  mx-auto">
