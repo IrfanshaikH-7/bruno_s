@@ -14,13 +14,18 @@ function CourseDetails() {
 
   return (
     <>
-      <section id="hero" className="my-8">
+      <section id="hero" className="my-8 pt-24 md:pt-24 bg-black">
         <div className="main-container">
+          <div className="relative ">
+            <div className="bg-gradient-to-b from-transparent to-black absolute top-0 left-0 z-20 h-full w-full rounded-xl"/>
           <img
             src={course.imagePath}
             alt={`Course id ${course.id}`}
-            className="object-cover w-full h-[70vh] rounded-2xl"
+            className="object-cover w-full h-36 md:h-[70vh] rounded-xl"
           />
+            
+          </div>
+         
           <h1 className="text-[#DFB6B2] text-4xl md:text-6xl font-bold my-3">
             {course.title}
           </h1>

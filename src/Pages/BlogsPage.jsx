@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const BlogsPage = () => {
   return (
     <>
-      <section id="hero" className="bg-black pb-8 pt-32 md:pt-48">
+      <section id="hero" className="bg-black  pb-8 pt-24 md:pt-24">
         <div className="main-container py-6">
           <h1 className="text-6xl text-center font-bold mb-3">Blogs</h1>
           <p className="text-[#FBE5D8] text-3xl max-w-5xl mx-auto text-center font-light">
@@ -15,8 +15,8 @@ const BlogsPage = () => {
         </div>
       </section>
 
-      <section id="cards" className="bg-black pb-8">
-        <div className="main-container">
+      <section id="cards" className="bg-black pb-8 ">
+        <div className="main-container max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             {blogs.map((course, index) => {
               const isLastOdd =
@@ -32,19 +32,19 @@ const BlogsPage = () => {
                     <img
                       src={course.imagePath}
                       alt={`Course id ${course.id}`}
-                      className="object-cover w-full h-64"
+                      className="object-cover w-full h-60"
                     />
                   </div>
                   <div className="p-4 flex flex-col flex-grow">
-                    <h3 className="text-[#DFB6B2] text-4xl font-bold mb-3">
+                    <h3 className="text-[#DFB6B2] text-xs md:text-2xl font-bold mb-3">
                       {course.title}
                     </h3>
-                    <p className="text-[#FBE5D8] text-xl font-light mb-4 flex-grow">
+                    <p className="text-[#FBE5D8] text-base line-clamp-4 md:text-lg font-light mb-2 flex-grow">
                       {course.description}
                     </p>
                     <Link
                       to={`/blogs/${course.id}`}
-                      className="text-2xl inline-block w-fit"
+                      className="text-xl inline-block w-fit"
                     >
                       <span className="bg-gradient-to-r from-[#532959] via-[#824D69] to-[#DFB6B2] bg-clip-text text-transparent">
                         Read More

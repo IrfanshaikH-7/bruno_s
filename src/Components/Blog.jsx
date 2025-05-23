@@ -6,7 +6,7 @@ import image3 from "../assets/Blog3.png";
 export default function Blog() {
   return (
     <section className="main-container my-12">
-      <h2 className="text-4xl md:text-7xl font-afacad font-bold text-white text-center mb-4">
+      <h2 className="text-2xl md:text-5xl font-afacad font-bold text-white text-center mb-4">
         Blogs
       </h2>
       <p className="text-[#FBE5D8] font-afacad text-center max-w-4xl mx-auto mb-12">
@@ -20,7 +20,7 @@ export default function Blog() {
             <img
               src={image1}
               alt="Blog 1"
-              className="w-full h-74 rounded-lg object-cover"
+              className="w-full h-60 rounded-lg object-cover"
             />
           </div>
           <div className="my-4">
@@ -44,14 +44,14 @@ export default function Blog() {
             <img
               src={image2}
               alt="Blog 2"
-              className="w-full h-74 rounded-lg object-cover"
+              className="w-full h-60 rounded-lg object-cover"
             />
           </div>
           <div className="my-4">
             <div className="text-white font-afacad mb-2">
               May 08, 2025
             </div>
-            <h3 className="text-xl md:text-2xlfont-bold text-[#DFB6B2] font-afacad mb-2">
+            <h3 className="text-xl md:text-2xl font-bold text-[#DFB6B2] font-afacad mb-2">
               Gender in Spanish: An easy guide to masculine & feminine
             </h3>
             <p className="text-[#FBE5D8]/80 font-afacad  mb-4">
@@ -69,7 +69,7 @@ export default function Blog() {
             <img
               src={image3}
               alt="Blog 3"
-              className="w-full h-74 rounded-lg object-cover"
+              className="w-full h-60 rounded-lg object-cover"
             />
           </div>
           <div className="my-4">

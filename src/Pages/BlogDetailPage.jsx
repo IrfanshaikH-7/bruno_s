@@ -8,13 +8,16 @@ const BlogDetailPage = () => {
   const blog = blogs.find((blog) => blog.id == id);
   return (
     <>
-      <section id="hero" className="bg-black py-8">
+      <section id="hero" className="bg-black pb-8 pt-32 md:pt-32">
         <div className="main-container">
-          <img
+        <div className="relative ">
+            <div className="bg-gradient-to-b from-transparent to-black absolute top-0 left-0 z-20 h-full w-full rounded-xl"/>
+            <img
             src={blog.imagePath}
             alt={`Course id ${blog.id}`}
-            className="object-cover w-full h-[70vh] rounded-2xl"
+            className="object-cover w-full h-36 md:h-[70vh] rounded-2xl"
           />
+          </div>
           <h1 className="text-[#DFB6B2] text-4xl md:text-6xl font-bold my-10">
             {blog.title}
           </h1>

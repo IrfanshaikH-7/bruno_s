@@ -3,13 +3,13 @@ import React from "react";
 
 export default function Stats() {
   return (
-    <section className="main-container m-20">
-      <h2 className="text-4xl md:text-6xl font-afacad font-bold text-white text-center mb-12">
+    <section className="main-container m-20 max-w-7xl mx-auto ">
+      <h2 className="text-3xl md:text-6xl font-afacad font-bold text-white text-center mb-12">
         Real-world results.
       </h2>
-      <div className="grid md:grid-cols-3 gap-6 md:gap-12 xl:gap-24 mt-20 mb-12  mx-auto">
+      <div className="grid md:grid-cols-3 gap-12 px-4 xl:gap-24 mt-20 mb-12  mx-auto">
         {/* Rating Card */}
-        <div className="relative bg-black/20 backdrop-blur-sm rounded-lg py-8 px-12 flex flex-col  items-center cs_shadow shadow-[#53295961] justify-center ">
+        <div className="relative bg-black/20 backdrop-blur-sm rounded-xl py-8 px-12 flex flex-col  items-center cs_shadow shadow-[#53295961] justify-center ">
           
           {/* Circular overlay with shadow */}
           <div className="absolute -top-20 -left-6 w-40 h-40 rounded-full bg-[#532959]/[38%] z-50 filter blur-2xl "></div>
@@ -25,7 +25,7 @@ export default function Stats() {
             </span>
           </div>
         </div>
-        <div className="relative bg-black/20 backdrop-blur-sm rounded-lg py-8 px-12 flex flex-col  items-center cs_shadow shadow-[#53295961] justify-center ">
+        <div className="relative bg-black/20 backdrop-blur-sm rounded-xl py-8 px-12 flex flex-col  items-center cs_shadow shadow-[#53295961] justify-center ">
           
           {/* Circular overlay with shadow */}
           <div className="absolute -bottom-20 right-1/2 w-40 h-40 rounded-full bg-[#532959]/[38%] z-50 filter blur-2xl "></div>
@@ -53,7 +53,7 @@ export default function Stats() {
             </span>
           </div>
         </div>
-        <div className="relative bg-black/20 backdrop-blur-sm rounded-lg py-8 px-12 flex flex-col  items-center cs_shadow shadow-[#53295961] justify-center ">
+        <div className="relative bg-black/20 backdrop-blur-sm rounded-xl py-8 px-12 flex flex-col  items-center cs_shadow shadow-[#53295961] justify-center ">
           
           {/* Circular overlay with shadow */}
           <div className="absolute -top-20 -right-6 w-40 h-40 rounded-full bg-[#532959]/[38%] z-50 filter blur-2xl "></div>

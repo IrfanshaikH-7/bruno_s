@@ -22,13 +22,19 @@ const Home = () => {
       <section id="about" className="mb-8">
         <About />
       </section>
+      <div className="max-w-[1340px] mx-auto">
       <WhyLearn />
       <LearningOnline />
       <VideoSection />
+      </div>
+
       <Resources />
       <Events />
+      <div className="max-w-[1340px] mx-auto">
       <Blog />
-      <section id="testimonials" className="bg-black py-8">
+      </div>
+    
+      <section id="testimonials" className=" bg-black py-8">
         <StudentsReviews />
       <Stats />
       </section>

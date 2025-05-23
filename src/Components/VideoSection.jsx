@@ -7,22 +7,22 @@ export default function VideoSection() {
 
   return (
     <section className="main-container my-16">
-      <h2 className="text-4xl md:text-6xl font-afacad font-bold text-white text-center mb-12">
+      <h2 className="text-3xl md:text-5xl font-afacad font-bold text-white text-center mb-12">
         See what a Bruno S class looks like
       </h2>
 
       <div className="rounded-lg overflow-hidden">
-        <div className="relative  md:px-7">
+        <div className="relative px-4 md:px-7">
         <div
-        className="absolute hidden md:block w-[60px] h-3/4 top-1/2 -translate-y-1/2 right-0 rounded-3xl bg-[#dfb6b2]/[19%]"
+        className="absolute block w-[24px] h-[100px] md:w-[60px] md:h-[300px] top-1/2 -translate-y-1/2 right-0 rounded-3xl bg-[#dfb6b2]/[19%]"
       />
       <div
-        className="absolute hidden md:block w-[60px] h-3/4 top-1/2 -translate-y-1/2 left-0 rounded-3xl bg-[#dfb6b2]/[19%]"
+        className="absolute block w-[24px] h-[100px] md:w-[60px] md:h-[300px] top-1/2 -translate-y-1/2 left-0 rounded-3xl bg-[#dfb6b2]/[19%]"
       />
           {playVideo ? (
-            <div className="rounded-3xl overflow-hidden">
+            <div className="overflow-hidden ">
               <iframe
-              className="w-full h-[70vh]  rounded-3xl "
+              className="w-full h-[160px] md:h-[500px]  rounded-xl md:rounded-3xl z-10"
               src="https://www.youtube.com/embed/k7HkJKDYoBc?autoplay=1"
               title="Bruno S Class Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -34,12 +34,12 @@ export default function VideoSection() {
           ) : (
             <>
 
-<div className="rounded-3xl overflow-hidden">
+<div className="rounded-xl md:rounded-3xl overflow-hidden">
 
               <img
                 src={image}
                 alt="Class preview"
-                className="w-full h-[70vh] object-cover"
+                className="w-full h-[160px] md:h-[500px]  object-cover z-10"
               />
               <button
                 onClick={() => setPlayVideo(true)}

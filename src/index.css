@@ -6,6 +6,7 @@ body {
   background-color: #19001c;
   color: white;
   font-family: "Afacad", sans-serif;
+  overflow-x: hidden;
 }
 button{
   cursor: pointer;

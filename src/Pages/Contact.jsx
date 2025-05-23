@@ -36,7 +36,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b  pt-24 md:pt-40 from-[#1A0B1E] to-[#2D1B35] text-white">
+    <div className="min-h-screen bg-gradient-to-b  pt-20 md:pt-20 from-[#1A0B1E] to-[#2D1B35] text-white">
       {/* Header would be included here */}
 
       {/* Main Content */}
@@ -54,14 +54,14 @@ const Contact = () => {
 
           <div className="flex font-afacad flex-col rounded-3xl overflow-hidden bg-[#000000] lg:flex-row gap-8">
             {/* Image on left - only shown on larger screens */}
-            <div className="hidden lg:block lg:w-1/2 h-[640px] relative">
+            <div className="block lg:w-1/2 h-60 md:h-[640px] relative">
               <img
                 src={image}
                 alt="Contact illustration"
                 className="w-full h-full object-cover"
               />
               {/* Blurred black overlay at the bottom */}
-              <div className="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-black to-transparent backdrop-blur-xs"></div>
+              <div className="absolute -bottom-1 left-0 right-0 h-60  bg-gradient-to-t from-black to-transparent "></div>
             </div>
 
             {/* Form on right */}

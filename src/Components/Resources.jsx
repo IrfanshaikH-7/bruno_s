@@ -27,9 +27,9 @@ export default function Resources() {
   ];
 
   return (
-    <section className="relative bg-black py-16 px-4">
+    <section className="relative bg-black overflow-hidden py-16 px-4">
       <div className="container mx-auto">
-        <h2 className="text-4xl sm:text-5xl font-afacad font-bold text-white text-center mb-4">
+        <h2 className="text-3xl sm:text-5xl font-afacad font-bold text-white text-center mb-4">
           Keep Learning At Any Time
         </h2>
         <p className="text-[#DFB6B2] font-afacad text-center max-w-5xl mx-auto mb-12 text-base sm:text-lg">
@@ -37,7 +37,7 @@ export default function Resources() {
           time you want, to lots of great resources.
         </p>
 
-        <div className="grid lg:grid-cols-3 gap-6 items-start max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-3 gap-6 items-start max-w-full mx-auto">
           <div className="flex flex-col gap-6 md:gap-24 order-2 lg:order-1">
             {resources.slice(0, 2).map((res, idx) => (
               <div
