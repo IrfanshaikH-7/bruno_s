@@ -99,7 +99,7 @@ const Header = () => {
         }`}
       >
       
-            <div className="flex gap-2 flex-col">
+            <div className="flex gap-6 flex-col">
                 <NavLink
                   to="/"
                   className={linkClass}

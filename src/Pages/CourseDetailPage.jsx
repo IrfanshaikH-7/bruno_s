@@ -69,7 +69,7 @@ function CourseDetails() {
 
                 <div>
                   <h3 className="text-4xl md:text-6xl font-bold mb-2">Requirements</h3>
-                  <div className="prose lg:prose-xl -ml-2 dark:prose-invert max-w-full" dangerouslySetInnerHTML={{ __html: course?.requirements }} />
+                  <div className="prose lg:prose-xl -ml-2 text-white dark:prose-invert max-w-full" dangerouslySetInnerHTML={{ __html: course?.requirements }} />
 
                 </div>
 

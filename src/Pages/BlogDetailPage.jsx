@@ -52,7 +52,7 @@ const BlogDetailPage = () => {
            <p className="text-[#FBE5D8] text-2xl md:text-4xl font-light my-10">
              {blog?.metaData.description}
            </p>
-           <div className="prose-lg lg:prose-2xl dark:prose-invert max-w-full" dangerouslySetInnerHTML={{ __html: blog?.editorContent }} />
+           <div className="prose-lg lg:prose-2xl dark:prose-invert max-w-full text-white" dangerouslySetInnerHTML={{ __html: blog?.editorContent }} />
  
          </div>
        </section>
