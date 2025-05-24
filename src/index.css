@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600;700&display=swap");
 
 @import "tailwindcss";
-
+@plugin '@tailwindcss/typography';
 body {
   background-color: #19001c;
   color: white;
@@ -18,9 +18,23 @@ button{
   margin-right: auto;
 }
 
-ul, li {
-  display: inline-block;
+.prose ul > li {
+  line-height: 1.2; 
+  margin-top: 0.1em; 
+  margin-bottom: 0.1em;
 }
+.prose ol > li {
+  line-height: 1.2; 
+  margin-top: 0.1em; 
+  margin-bottom: 0.1em;
+}
+.prose-lg :where(ul):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  padding-inline-start: 0;
+}
+.prose-lg :where(ol):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  padding-inline-start: 0;
+}
+
 
 .light-txt-color {
   color: #8F8F8F;
