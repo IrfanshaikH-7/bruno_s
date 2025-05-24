@@ -15,7 +15,7 @@ const BlogDetailPage = () => {
             <img
             src={blog.imagePath}
             alt={`Course id ${blog.id}`}
-            className="object-cover w-full h-36 md:h-[70vh] rounded-2xl"
+            className="object-cover w-full h-36 md:h-[70vh] rounded-xl"
           />
           </div>
           <h1 className="text-[#DFB6B2] text-4xl md:text-6xl font-bold my-10">

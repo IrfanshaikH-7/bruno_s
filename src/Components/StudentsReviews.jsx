@@ -1,9 +1,11 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
+import Testimonials from "./Testimonials";
 
 const StudentsReviews = () => {
   return (
-    <div className="main-container max-w-7xl">
+    <>
+       <div className="main-container hidden md:block max-w-7xl">
       <h3 className="text-center text-3xl  md:text-5xl font-bold my-8">
         What my students say
       </h3>
@@ -40,6 +42,10 @@ const StudentsReviews = () => {
       </div>
         
     </div>
+    <Testimonials />
+      
+    </>
+   
   );
 };
 

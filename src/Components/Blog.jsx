@@ -6,7 +6,7 @@ import image3 from "../assets/Blog3.png";
 export default function Blog() {
   return (
     <section className="main-container my-12">
-      <h2 className="text-2xl md:text-5xl font-afacad font-bold text-white text-center mb-4">
+      <h2 className="text-3xl md:text-5xl font-afacad font-bold text-white text-center mb-4">
         Blogs
       </h2>
       <p className="text-[#FBE5D8] font-afacad text-center max-w-4xl mx-auto mb-12">

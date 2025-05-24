@@ -3,7 +3,7 @@ import React from "react";
 export default function WhyLearn() {
   return (
     <section className="w-full  md:py-16 px-4 max-w-7xl mx-auto">
-      <h2 className="font-afacad text-2xl md:text-5xl font-extrabold text-white text-center mb-12">
+      <h2 className="font-afacad text-3xl md:text-5xl font-extrabold text-white text-center mb-12">
         Why Learn Spanish Online?
       </h2>
 

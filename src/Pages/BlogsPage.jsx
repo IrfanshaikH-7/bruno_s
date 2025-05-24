@@ -36,7 +36,7 @@ const BlogsPage = () => {
                     />
                   </div>
                   <div className="p-4 flex flex-col flex-grow">
-                    <h3 className="text-[#DFB6B2] text-xs md:text-2xl font-bold mb-3">
+                    <h3 className="text-[#DFB6B2]  text-xl md:text-2xl font-bold mb-3">
                       {course.title}
                     </h3>
                     <p className="text-[#FBE5D8] text-base line-clamp-4 md:text-lg font-light mb-2 flex-grow">

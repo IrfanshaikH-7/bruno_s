@@ -38,3 +38,7 @@ ul, li {
 .hover_class:hover{
   @apply bg-gradient-to-r from-[#532959] via-[#824D69] to-[#532959] text-white rounded-lg hover:from-[#5d2f63] hover:via-[#8d5674] hover:to-[#5d2f63];
 }
+
+
+
+/* # marquee */

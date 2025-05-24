@@ -44,7 +44,7 @@ export default function Resources() {
                 key={idx}
                 className={
                   `bg-black/40 rounded-xl p-4 border lg:border-none border-purple-900/20 hover:border-purple-900/40 transform hover:scale-[1.02] transition-transform
-                  ${idx === 1 && "md:ml-12"}
+                  ${idx === 1 && "lg:ml-12"}
                   `
                 }
               >
@@ -83,7 +83,7 @@ export default function Resources() {
                 key={idx}
                 className={`
                   bg-black/40 rounded-xl p-4 border lg:border-none border-purple-900/20 hover:border-purple-900/40 transform hover:scale-[1.02] transition-transform
-                  ${idx === 1 && "md:-ml-12"}
+                  ${idx === 1 && "lg:-ml-12"}
                   `}
               >
                 <div className="flex items-center gap-4">

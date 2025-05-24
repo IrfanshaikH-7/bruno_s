@@ -6,7 +6,7 @@ import image3 from "../assets/LearningOnline3.png";
 export default function LearningOnline() {
   return (
     <section className="main-container mt-12 md:mt-0">
-      <h2 className="text-2xl md:text-5xl font-afacad font-bold text-white text-center mt-4 mb-8 md:mb-12">
+      <h2 className="text-3xl md:text-5xl font-afacad font-bold text-white text-center mt-4 mb-8 md:mb-12">
         Learning Online with Bruno S
       </h2>
 
